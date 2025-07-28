@@ -36,14 +36,14 @@ function Home() {
           }}
         >
           <p>Hi, my name is</p>
-          <h1 className="text-success">Evan Tay.</h1>
+          <h1 className="text-success">Hants Williams.</h1>
           <p>
             I am a{" "}
             <span className="text-warning">
-              Senior Full-Stack Software Engineer
+              senior health care professional
             </span>{" "}
             passionate about solving meaningful problems at{" "}
-            <span className="text-danger">scale</span>.
+            <span className="text-danger">hospitals, startups, and academic institutions</span>.
           </p>
           <SocialLinks />
           <p>
@@ -65,7 +65,7 @@ function Home() {
           <div>
             <img
               className={styles.aboutProfilePic}
-              src={useBaseUrl("img/profilepic.jpg")}
+              src={useBaseUrl("img/hants.jpeg")}
             />
           </div>
           <div className={styles.aboutText}>

@@ -6,19 +6,19 @@ import tailwind from "tailwindcss";
 const internetProfiles = {
   linkedin: {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/evanitsg/",
+    href: "https://www.linkedin.com/in/hantswilliams/",
   },
   github: {
     label: "GitHub",
-    href: "https://github.com/digipie",
+    href: "https://github.com/hantswilliams",
   },
   padlet: {
     label: "Padlet",
-    href: "https://padlet.com/about/us/wish/1072760846",
+    href: "https://padlet.com/",
   },
   email: {
     label: "Email",
-    href: "mailto:evan.it.sg@gmail.com",
+    href: "mailto:hantsawilliams@gmail.com",
   },
   blog: {
     label: "Blog",
@@ -34,15 +34,15 @@ const internetProfiles = {
   },
   resume: {
     label: "Resume",
-    href: "https://evantay.com/pdf/resume.pdf",
+    href: "https://about.hants-williams.com/pdf/hantswilliams_academic_cv_2025.pdf",
   },
 };
 
 module.exports = {
-  title: "Evan Tay",
+  title: "Hants Williams",
   tagline:
-    "A Senior Full-Stack Software Engineer passionate about solving meaningful problems at scale.",
-  url: "https://evantay.com",
+    "A senior health care professional with a passion for data, technology, and software development.",
+  url: "https://hants-williams.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/logo.png",
@@ -56,9 +56,9 @@ module.exports = {
     },
     navbar: {
       hideOnScroll: true,
-      title: "Evan Tay",
+      title: "Hants Williams",
       logo: {
-        alt: "Evan Tay",
+        alt: "Hants Williams",
         src: "img/logo.png",
         target: "_self",
       },
@@ -72,7 +72,7 @@ module.exports = {
         },
         { to: "projects/", label: "Projects", position: "right" },
         {
-          href: "https://evantay.com/pdf/resume.pdf",
+          href: "https://about.hants-williams.com/pdf/hantswilliams_academic_cv_2025.pdf",
           label: "Resume",
           position: "right",
         },

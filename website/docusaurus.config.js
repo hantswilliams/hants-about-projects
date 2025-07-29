@@ -79,12 +79,12 @@ module.exports = {
         //   label: "Publications",
         //   position: "left",
         // },
-        // { to: "projects/", label: "Projects", position: "right" },
-        // {
-        //   href: "https://about.hants-williams.com/pdf/hantswilliams_academic_cv_2025.pdf",
-        //   label: "Resume",
-        //   position: "right",
-        // },
+        { to: "projects/", label: "Projects", position: "right" },
+        {
+          href: "https://about.hants-williams.com/pdf/hantswilliams_academic_cv_2025.pdf",
+          label: "Resume",
+          position: "right",
+        },
       ],
     },
     footer: {

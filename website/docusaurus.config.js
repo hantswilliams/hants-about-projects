@@ -24,6 +24,10 @@ const internetProfiles = {
     label: "Blog",
     to: "blog",
   },
+  publications: {
+    label: "Publications",
+    to: "publications",
+  },
   docs: {
     label: "Documentation",
     to: "docs",
@@ -45,9 +49,9 @@ module.exports = {
   url: "https://hants-williams.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  favicon: "img/logo.png",
-  organizationName: "digipie",
-  projectName: "kaya-folio",
+  favicon: "img/hants.jpeg",
+  organizationName: "hantswilliams",
+  projectName: "hants-about-projects",
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
@@ -59,23 +63,28 @@ module.exports = {
       title: "Hants Williams",
       logo: {
         alt: "Hants Williams",
-        src: "img/logo.png",
+        src: "img/hw_white_logo.png",
         target: "_self",
       },
       items: [
-        { to: "blog/", label: "Blog", position: "left" },
-        {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "Docs",
-          position: "left",
-        },
-        { to: "projects/", label: "Projects", position: "right" },
-        {
-          href: "https://about.hants-williams.com/pdf/hantswilliams_academic_cv_2025.pdf",
-          label: "Resume",
-          position: "right",
-        },
+        // { to: "blog/", label: "Blog", position: "left" },
+        // {
+        //   to: "docs/",
+        //   activeBasePath: "docs",
+        //   label: "Docs",
+        //   position: "left",
+        // },
+        // {
+        //   to: "publications/",
+        //   label: "Publications",
+        //   position: "left",
+        // },
+        // { to: "projects/", label: "Projects", position: "right" },
+        // {
+        //   href: "https://about.hants-williams.com/pdf/hantswilliams_academic_cv_2025.pdf",
+        //   label: "Resume",
+        //   position: "right",
+        // },
       ],
     },
     footer: {
@@ -89,18 +98,18 @@ module.exports = {
             internetProfiles.email,
           ],
         },
-        {
-          title: "Discover",
-          items: [
-            internetProfiles.blog,
-            internetProfiles.docs,
-            internetProfiles.projects,
-            internetProfiles.resume,
-          ],
-        },
+        // {
+        //   title: "Discover",
+        //   items: [
+        //     internetProfiles.blog,
+        //     internetProfiles.publications,
+        //     internetProfiles.docs,
+        //     internetProfiles.projects,
+        //     internetProfiles.resume,
+        //   ],
+        // },
       ],
-      // I built this website for my own personal use, but you are free to use it so long as you credit me. You can do so by linking back to evantay.com :)
-      copyright: `<a href="https://evantay.com">Design by Evan Tay</a> • <a href="https://github.com/DigiPie/kaya-folio/commits/main">Updated ${new Date().toLocaleDateString()}</a>`,
+      copyright: `Hants Williams: Updated ${new Date().toLocaleDateString()}</a>`,
     },
   },
   presets: [
@@ -114,11 +123,7 @@ module.exports = {
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: "https://github.com/DigiPie/kaya-folio/tree/main/website/",
-        },
+        blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -135,6 +140,29 @@ module.exports = {
     },
   ],
   plugins: [
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        id: "blog",
+        routeBasePath: "blog",
+        path: "./blog",
+        showReadingTime: true,
+        editUrl:
+          "https://github.com/hantswilliams/hants-about-projects/tree/main/website/",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-blog",
+      {
+        id: "publications",
+        routeBasePath: "publications",
+        path: "./publications",
+        showReadingTime: true,
+        blogSidebarTitle: "Recent Publications",
+        editUrl:
+          "https://github.com/hantswilliams/hants-about-projects/tree/main/website/",
+      },
+    ],
     async function tailwindPlugin(context, options) {
       return {
         name: "docusaurus-tailwindcss",

@@ -36,39 +36,39 @@ function Home() {
           }}
         >
           <p>Hi, my name is</p>
-          <h1 className="text-success">Hants Williams.</h1>
+          <h1 className="text-white">Hants Williams.</h1>
           <p>
             I am a{" "}
-            <span className="text-warning">
+            <span className="text-white">
               senior health care professional
             </span>{" "}
             passionate about solving meaningful problems at{" "}
-            <span className="text-danger">hospitals, startups, and academic institutions</span>.
+            <span className="text-white">hospitals, startups, and academic institutions</span>.
           </p>
-          <SocialLinks />
+          {/* <SocialLinks />
           <p>
             <a href="#main">
-              <button className="border-0 rounded p-2 pl-4 pr-0 bg-primary-900 hover:bg-primary-800 transition text-white text-lg cursor-pointer">
+              <button className="border-0 rounded p-2 pl-4 pr-0 bg-light-900 hover:bg-light-800 transition text-white text-lg cursor-pointer">
                 whoami<span className="pl-1 animate-pulse">▎</span>
               </button>
             </a>
-          </p>
+          </p> */}
         </div>
       </header>
       <main id="main" ref={mainRef} hidden={true}>
-        <div className={styles.aboutHeader}>
+        {/* <div className={styles.aboutHeader}>
           <h2 className="border-0 border-b-4 border-solid border-success">
             Who am I
           </h2>
-        </div>
+        </div> */}
         <div className={styles.about}>
-          <div>
+          {/* <div>
             <img
               className={styles.aboutProfilePic}
               src={useBaseUrl("img/hants.jpeg")}
             />
-          </div>
-          <div className={styles.aboutText}>
+          </div> */}
+          {/* <div className={styles.aboutText}>
             <h2>Hi</h2>
             <p>
               🇸🇬 I am Evan, a Full Stack Software Engineer and Certified Cloud
@@ -117,11 +117,11 @@ function Home() {
               </a>
               .
             </p>
-          </div>
+          </div> */}
         </div>
-        <section className={styles.directory}>
+        {/* <section className={styles.directory}>
           <div className="container">
-            <h3>Continue exploring?</h3>
+            <h3>Some resources to explore:</h3>
             <nav className="pagination-nav">
               <div className="pagination-nav__item">
                 <Link className="pagination-nav__link" to={useBaseUrl("blog/")}>
@@ -157,7 +157,7 @@ function Home() {
               </div>
             </nav>
           </div>
-        </section>
+        </section> */}
       </main>
     </Layout>
   );

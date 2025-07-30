@@ -94,7 +94,7 @@ module.exports = {
           items: [
             internetProfiles.linkedin,
             internetProfiles.github,
-            internetProfiles.padlet,
+            // internetProfiles.padlet,
             internetProfiles.email,
           ],
         },

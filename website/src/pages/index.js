@@ -40,124 +40,14 @@ function Home() {
           <p>
             I am a{" "}
             <span className="text-white">
-              senior health care professional
+              health care professional
             </span>{" "}
-            passionate about solving meaningful problems at{" "}
-            <span className="text-white">hospitals, startups, and academic institutions</span>.
+            passionate about solving meaningful problems within{" "}
+            <span className="text-white">hospitals, startups, and academic medical institutions</span>.
           </p>
-          {/* <SocialLinks />
-          <p>
-            <a href="#main">
-              <button className="border-0 rounded p-2 pl-4 pr-0 bg-light-900 hover:bg-light-800 transition text-white text-lg cursor-pointer">
-                whoami<span className="pl-1 animate-pulse">▎</span>
-              </button>
-            </a>
-          </p> */}
         </div>
       </header>
       <main id="main" ref={mainRef} hidden={true}>
-        {/* <div className={styles.aboutHeader}>
-          <h2 className="border-0 border-b-4 border-solid border-success">
-            Who am I
-          </h2>
-        </div> */}
-        <div className={styles.about}>
-          {/* <div>
-            <img
-              className={styles.aboutProfilePic}
-              src={useBaseUrl("img/hants.jpeg")}
-            />
-          </div> */}
-          {/* <div className={styles.aboutText}>
-            <h2>Hi</h2>
-            <p>
-              🇸🇬 I am Evan, a Full Stack Software Engineer and Certified Cloud
-              Engineer based in Singapore.
-            </p>
-            <p>
-              🚀 I love building cool and meaningful things with tech like{" "}
-              <Link to={useBaseUrl("projects/")}>
-                websites, applications or games
-              </Link>
-              .
-            </p>
-            <p>
-              🌏 To me, coding is the closest thing to magic we have on Earth.
-            </p>
-            <p>
-              👨‍💻 I have been writing beautiful code at{" "}
-              <a href="https://padlet.com">Padlet</a> since 2021.
-            </p>
-            <p>
-              🎒 I was a{" "}
-              <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/">
-                Computer Science major
-              </a>{" "}
-              at the{" "}
-              <a href="https://www.comp.nus.edu.sg/">
-                National University of Singapore
-              </a>{" "}
-              from 2017 to 2020.
-            </p>
-            <p>
-              🧑‍🏫 Back then, I was a{" "}
-              <a href="https://github.com/DigiPie/CS1010-Tutorial-C09">
-                Teaching Assistant
-              </a>{" "}
-              for Programming Methodology and Networking courses.
-            </p>
-            <p>
-              🛼 I was also Deputy Head of Technology for the{" "}
-              <a href="https://dscnustech.github.io/">
-                NUS Google Developer Student Club
-              </a>
-              , and President of the{" "}
-              <a href="https://www.instagram.com/nusskating/">
-                NUS Skating Club
-              </a>
-              .
-            </p>
-          </div> */}
-        </div>
-        {/* <section className={styles.directory}>
-          <div className="container">
-            <h3>Some resources to explore:</h3>
-            <nav className="pagination-nav">
-              <div className="pagination-nav__item">
-                <Link className="pagination-nav__link" to={useBaseUrl("blog/")}>
-                  <div className="pagination-nav__sublabel">Read</div>
-                  <div className="pagination-nav__label">My blog</div>
-                </Link>
-              </div>
-              <div className="pagination-nav__item pagination-nav__item--next">
-                <Link className="pagination-nav__link" to={useBaseUrl("docs/")}>
-                  <div className="pagination-nav__sublabel">Refer to</div>
-                  <div className="pagination-nav__label">My docs</div>
-                </Link>
-              </div>
-            </nav>
-            <nav className="pt-4 pagination-nav">
-              <div className="pagination-nav__item">
-                <Link
-                  className="pagination-nav__link"
-                  to={useBaseUrl("projects/")}
-                >
-                  <div className="pagination-nav__sublabel">Check out</div>
-                  <div className="pagination-nav__label">My projects</div>
-                </Link>
-              </div>
-              <div className="pagination-nav__item pagination-nav__item--next">
-                <a
-                  className="pagination-nav__link"
-                  href={useBaseUrl("pdf/resume.pdf")}
-                >
-                  <div className="pagination-nav__sublabel">Download</div>
-                  <div className="pagination-nav__label">My resume</div>
-                </a>
-              </div>
-            </nav>
-          </div>
-        </section> */}
       </main>
     </Layout>
   );

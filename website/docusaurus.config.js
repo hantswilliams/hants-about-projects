@@ -45,7 +45,7 @@ const internetProfiles = {
 module.exports = {
   title: "Hants Williams",
   tagline:
-    "A senior health care professional with a passion for data, technology, and software development.",
+    "A health care professional with a passion for data, technology, and software development.",
   url: "https://hants-williams.com",
   baseUrl: "/",
   onBrokenLinks: "throw",

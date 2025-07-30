@@ -3,7 +3,7 @@ import React from "react";
 const projects = [
   {
     category: "Project",
-    title:"LLMs for Medical Ethics",
+    title:"(2025) LLMs for Medical Ethics",
     slug: "#llm-ethics-hec-research",
     subtitle: "Comparing 4 LLM outputs for human judged accuracy to real-world medical ethics scenarios.",
     period: "July 2025",
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     category: "Project",
-    title: "X12 837 Claims File Generation",
+    title: "(2024) X12 837 Claims File Generation",
     slug: "#x12-837-claims-file-generation",
     subtitle: "A tool for generating X12 837 claims files.",
     period: "November 2024",
@@ -53,7 +53,32 @@ const projects = [
   },
   {
     category: "Project",
-    title: "FitBit Simple Web/API Extractor for Research Purposes",
+    title: "(2024) The Family Album iOS App (published on App Store)",
+    slug: "#the-family-album-ios-app",
+    subtitle: "An iOS app for creating and sharing family (baby) albums.",
+    period: "December 2024",
+    tech: "Swift, UIKit, Core Data",
+    description: (
+      <>
+        <p>
+          This project is an iOS app for creating and sharing baby albums, built with Swift and UIKit.
+        </p>
+      </>
+    ),
+    links: [
+      {
+        name: "App Store",
+        link: "https://apps.apple.com/us/app/the-family-album/id6739470325"
+      },
+      {
+        name: "GitHub repository",
+        link: "https://github.com/hantswilliams/thebabyalbum"
+      }
+    ]
+  },
+  {
+    category: "Project",
+    title: "(2024) FitBit Simple Web/API Extractor for Research Purposes",
     slug: "#fitbit-simple-web-api-extractor",
     subtitle: "A tool for extracting data from FitBit's web API.",
     period: "February 2024",
@@ -74,7 +99,7 @@ const projects = [
   },
   {
     category: "Project",
-    title: "A Healthcare Secure Flask Template",
+    title: "(2024) A Healthcare Secure Flask Template",
     slug: "#flask-python-healthcare-secure",
     subtitle: "A secure web application for healthcare data management.",
     period: "March 16 2024",
@@ -100,7 +125,7 @@ const projects = [
   },
   {
     category: "Project",
-    title: "LLM Basic Visualization",
+    title: "(2024) LLM Basic Visualization",
     slug: "#llm-basic-visualization",
     subtitle:
       "A simple web application for visualizing the output of large language models.",
@@ -126,7 +151,31 @@ const projects = [
   },
   {
     category: "Project",
-    title: "DCAT Compliant Open Source Data Discovery Tool",
+    title: "(2023) Digital Cloner Tool: IITG - Digital Clones for Education",
+    slug: "#digital-cloner-tool-iitg",
+    subtitle: "A tool for creating digital clones of educational resources.",
+    period: "November 2023",
+    tech: "Python, Javascript, Ai/ML, HuggingFace",
+    description: (
+      <>
+        <p>
+          This project is a digital cloner tool for creating digital clones of educational resources, built with Python and Javascript
+        </p>
+        <p>
+          It utilizes a number of Ai/ML techniques to enhance the cloning process, including natural language processing and image recognition.
+        </p>
+      </>
+    ),
+    links: [
+      {
+        name: "GitHub repository",
+        link: "https://github.com/hantswilliams/digitalclone-iitg"
+      }
+    ]
+  },
+  {
+    category: "Project",
+    title: "(2023) DCAT Compliant Open Source Data Discovery Tool",
     slug: "#dcat-compliant-open-source-data-discovery-tool",
     subtitle: "A tool for discovering and accessing open data.",
     period: "November 2023",
@@ -151,7 +200,7 @@ const projects = [
   },
   {
     category: "Project",
-    title: "Pypi: Data Visualization Package Wrapper",
+    title: "(2023) Pypi: Data Visualization Package Wrapper",
     slug: "#pypi-data-visualization-package-wrapper",
     subtitle: "A wrapper for creating data visualizations using popular Python libraries.",
     period: "September 2023",
@@ -179,7 +228,7 @@ const projects = [
   },
   {
     category: "Project",
-    title: "Open Source Book on Data Science for Health Informaticists (work in progress)",
+    title: "(2023) Open Source Book on Data Science for Health Informaticists (work in progress)",
     slug: "#data-science-opensource-book-healthinformatics",
     subtitle: "An open-source book on data science for health informatics.",
     period: "August 2023",
@@ -204,7 +253,7 @@ const projects = [
   },
   {
     category: "Project",
-    title: "EMR Opensource Wrapper for DrCrhonoe",
+    title: "(2022) EMR Opensource Wrapper for DrChrono",
     slug: "#emr-opensource-wrapper-drchrono",
     subtitle: "A wrapper for the DrChrono EMR API.",
     period: "November 2022",
@@ -225,7 +274,28 @@ const projects = [
   },
   {
     category: "Project",
-    title: "Early exploration of openAI LLM Capabilities 2021 using Flask",
+    title: "(2022) Open Source Data Sets Repository",
+    slug: "#open-source-data-sets-repository",
+    subtitle: "A repository of open-source data sets for health informatics research.",
+    period: "October 2022",
+    tech: "Markdown",
+    description: (
+      <>
+        <p>
+          This project is a repository of open-source data sets for health informatics research, using Markdown.
+        </p>
+      </>
+    ),
+    links: [
+      {
+        name: "GitHub repository",
+        link: "https://github.com/hantswilliams/healthcare-data"
+      }
+    ]
+  },
+  {
+    category: "Project",
+    title: "(2021) Early exploration of openAI LLM Capabilities 2021 using Flask",
     slug: "#early-exploration-openai-llm-capabilities-2021-using-flask",
     subtitle: "A project exploring the capabilities of OpenAI's language models.",
     period: "December 2021",
@@ -246,7 +316,7 @@ const projects = [
   },
   {
     category: "Project",
-    title: "Early exploration of using OpenCV with Raspberry PI for person detection",
+    title: "(2018) Early exploration of using OpenCV with Raspberry PI for person detection",
     slug: "#early-exploration-opencv-raspberry-pi-person-detection",
     subtitle: "A project exploring person detection using OpenCV on Raspberry Pi.",
     period: "December 2018",

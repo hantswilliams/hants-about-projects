@@ -45,7 +45,7 @@ const internetProfiles = {
 module.exports = {
   title: "Hants Williams",
   tagline:
-    "A health care professional with a passion for data, technology, and software development.",
+    "A professional with a passion for data, technology, and software development.",
   url: "https://hants-williams.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -74,12 +74,12 @@ module.exports = {
         //   label: "Docs",
         //   position: "left",
         // },
-        // {
-        //   to: "publications/",
-        //   label: "Publications",
-        //   position: "left",
-        // },
-        { to: "projects/", label: "Projects", position: "right" },
+        {
+          to: "publications/",
+          label: "Publications",
+          position: "left",
+        },
+        { to: "projects/", label: "Projects", position: "left" },
         {
           href: "https://about.hants-williams.com/pdf/hantswilliams_academic_cv_2025.pdf",
           label: "Resume",
@@ -98,16 +98,16 @@ module.exports = {
             internetProfiles.email,
           ],
         },
-        // {
-        //   title: "Discover",
-        //   items: [
-        //     internetProfiles.blog,
-        //     internetProfiles.publications,
-        //     internetProfiles.docs,
-        //     internetProfiles.projects,
-        //     internetProfiles.resume,
-        //   ],
-        // },
+        {
+          title: "Discover",
+          items: [
+            internetProfiles.blog,
+            internetProfiles.publications,
+            // internetProfiles.docs,
+            internetProfiles.projects,
+            internetProfiles.resume,
+          ],
+        },
       ],
       copyright: `Hants Williams: Updated ${new Date().toLocaleDateString()}</a>`,
     },

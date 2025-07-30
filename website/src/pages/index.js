@@ -40,7 +40,7 @@ function Home() {
           <p>
             I am a{" "}
             <span className="text-white">
-              health care professional
+              quantitative-driven professional
             </span>{" "}
             passionate about solving meaningful problems within{" "}
             <span className="text-white">hospitals, startups, and academic medical institutions</span>.

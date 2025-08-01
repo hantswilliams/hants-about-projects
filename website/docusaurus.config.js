@@ -74,12 +74,13 @@ module.exports = {
         //   label: "Docs",
         //   position: "left",
         // },
+        { to: "projects/", label: "Projects", position: "left" },
         {
           to: "publications/",
           label: "Publications",
           position: "left",
         },
-        { to: "projects/", label: "Projects", position: "left" },
+
         {
           href: "https://about.hants-williams.com/pdf/hantswilliams_academic_cv_2025.pdf",
           label: "Resume",

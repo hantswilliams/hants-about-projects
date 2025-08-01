@@ -158,7 +158,9 @@ module.exports = {
         routeBasePath: "publications",
         path: "./publications",
         showReadingTime: true,
-        blogSidebarTitle: "Recent Publications",
+        blogSidebarTitle: "All Publications",
+        blogSidebarCount: 'ALL',
+        sortPosts: 'descending',
         editUrl:
           "https://github.com/hantswilliams/hants-about-projects/tree/main/website/",
       },
